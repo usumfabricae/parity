@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Quelldateien\sys">
+      <UniqueIdentifier>{972fbb22-4cca-4760-9a24-9596df6a5fac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\internal">
+      <UniqueIdentifier>{5bd138bf-6d4c-41c8-9115-da3d8eaeb309}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien\internal">
+      <UniqueIdentifier>{d62271ec-fae6-406c-84ad-0cbd8ec3bb22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\sys">
+      <UniqueIdentifier>{40baa618-9143-4509-ba0d-642806695809}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dirent.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="dlfcn.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="getopt.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="libgen.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="regex.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="stdio.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="time.c">
+      <Filter>Quelldateien\sys</Filter>
+    </ClCompile>
+    <ClCompile Include="times.c">
+      <Filter>Quelldateien\sys</Filter>
+    </ClCompile>
+    <ClCompile Include="cxxeh.cc">
+      <Filter>Quelldateien\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="diagnose.c">
+      <Filter>Quelldateien\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="output.c">
+      <Filter>Quelldateien\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="pcrt.c">
+      <Filter>Quelldateien\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="setenv.c">
+      <Filter>Quelldateien\internal</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="alloca.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="ctype.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="direct.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="dirent.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="dlfcn.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="fcntl.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="float.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="getopt.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="io.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="iso646.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="libgen.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="limits.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="malloc.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="math.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="netdb.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="process.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="regex.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="search.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="signal.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="stdbool.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="stdio.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="stdlib.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="string.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="strings.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="time.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="unistd.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="utime.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="wchar.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="internal\diagnose.h">
+      <Filter>Headerdateien\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="internal\output.h">
+      <Filter>Headerdateien\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="internal\pcrt.h">
+      <Filter>Headerdateien\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="sys\select.h">
+      <Filter>Headerdateien\sys</Filter>
+    </ClInclude>
+    <ClInclude Include="sys\socket.h">
+      <Filter>Headerdateien\sys</Filter>
+    </ClInclude>
+    <ClInclude Include="sys\stat.h">
+      <Filter>Headerdateien\sys</Filter>
+    </ClInclude>
+    <ClInclude Include="sys\time.h">
+      <Filter>Headerdateien\sys</Filter>
+    </ClInclude>
+    <ClInclude Include="sys\timeb.h">
+      <Filter>Headerdateien\sys</Filter>
+    </ClInclude>
+    <ClInclude Include="sys\times.h">
+      <Filter>Headerdateien\sys</Filter>
+    </ClInclude>
+    <ClInclude Include="sys\types.h">
+      <Filter>Headerdateien\sys</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Confix2.dir" />
+    <None Include="parity.conf.in" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="left-out.txt" />
+  </ItemGroup>
+</Project>

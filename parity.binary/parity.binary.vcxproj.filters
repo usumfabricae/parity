@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Sources\Special Sections And Symbols">
+      <UniqueIdentifier>{28d3b1fe-9dce-42d3-98c6-200db60239e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Headers\Special Sections And Symbols">
+      <UniqueIdentifier>{5548b8c1-1142-49f5-a444-498d4d0dfbe6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CoffArchive.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="CoffDecoder.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="CoffFile.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="CoffFileHeader.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="CoffImport.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="CoffSection.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="CoffSymbol.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="CoffDirectiveSection.cpp">
+      <Filter>Sources\Special Sections And Symbols</Filter>
+    </ClCompile>
+    <ClCompile Include="CoffImportDirectory.cpp">
+      <Filter>Sources\Special Sections And Symbols</Filter>
+    </ClCompile>
+    <ClCompile Include="CoffMsDosStub.cpp">
+      <Filter>Sources\Special Sections And Symbols</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CoffArchive.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CoffAuxSymbol.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CoffDecoder.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CoffFile.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CoffFileHeader.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CoffHelperPackStart.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CoffHelperPackStop.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CoffImage.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CoffImport.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CoffInstruction.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CoffObject.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CoffOptionalHeader.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CoffRelocation.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CoffSection.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CoffSymbol.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CoffDirectiveSection.h">
+      <Filter>Headers\Special Sections And Symbols</Filter>
+    </ClInclude>
+    <ClInclude Include="CoffImportDirectory.h">
+      <Filter>Headers\Special Sections And Symbols</Filter>
+    </ClInclude>
+    <ClInclude Include="CoffMsDosStub.h">
+      <Filter>Headers\Special Sections And Symbols</Filter>
+    </ClInclude>
+    <ClInclude Include="CoffSectionAuxSymbol.h">
+      <Filter>Headers\Special Sections And Symbols</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Confix2.dir" />
+  </ItemGroup>
+</Project>

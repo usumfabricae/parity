@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Sources\Arguments">
+      <UniqueIdentifier>{62f0c3e5-fe4b-4fd4-a6c7-f173504a3081}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Headers\Arguments">
+      <UniqueIdentifier>{1e18a385-df3f-4612-96a4-7a9060782de1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Argument.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandLine.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="TableGnuGcc.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="TableGnuLd.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="TableMsCl.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="TableMsLink.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Compiler.cpp">
+      <Filter>Sources\Arguments</Filter>
+    </ClCompile>
+    <ClCompile Include="Internal.cpp">
+      <Filter>Sources\Arguments</Filter>
+    </ClCompile>
+    <ClCompile Include="Linker.cpp">
+      <Filter>Sources\Arguments</Filter>
+    </ClCompile>
+    <ClCompile Include="Misc.cpp">
+      <Filter>Sources\Arguments</Filter>
+    </ClCompile>
+    <ClCompile Include="Optimize.cpp">
+      <Filter>Sources\Arguments</Filter>
+    </ClCompile>
+    <ClCompile Include="Preprocessor.cpp">
+      <Filter>Sources\Arguments</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Argument.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandLine.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="TableGnuGcc.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="TableGnuLd.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="TableMsCl.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="TableMsLink.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Version.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Compiler.h">
+      <Filter>Headers\Arguments</Filter>
+    </ClInclude>
+    <ClInclude Include="Internal.h">
+      <Filter>Headers\Arguments</Filter>
+    </ClInclude>
+    <ClInclude Include="Linker.h">
+      <Filter>Headers\Arguments</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc.h">
+      <Filter>Headers\Arguments</Filter>
+    </ClInclude>
+    <ClInclude Include="Optimize.h">
+      <Filter>Headers\Arguments</Filter>
+    </ClInclude>
+    <ClInclude Include="Preprocessor.h">
+      <Filter>Headers\Arguments</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Confix2.dir" />
+  </ItemGroup>
+</Project>

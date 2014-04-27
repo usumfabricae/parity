@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Quelldateien\Microsoft Backend">
+      <UniqueIdentifier>{a3846225-38e8-4554-a7d9-1773f6f59a23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Interix Gnu Backend">
+      <UniqueIdentifier>{ff311895-4999-43b6-b464-05062f682099}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien\Microsoft Backend">
+      <UniqueIdentifier>{975d5267-733a-422e-90a9-b0cf70aea51a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Interix Gnu Backend">
+      <UniqueIdentifier>{9e23e524-8329-436e-9d2b-3c450862a9f8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BinaryGatherer.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="CollectorOther.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="CollectorStubs.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="MsCompiler.cpp">
+      <Filter>Quelldateien\Microsoft Backend</Filter>
+    </ClCompile>
+    <ClCompile Include="MsDependencyTracker.cpp">
+      <Filter>Quelldateien\Microsoft Backend</Filter>
+    </ClCompile>
+    <ClCompile Include="MsExportGenerator.cpp">
+      <Filter>Quelldateien\Microsoft Backend</Filter>
+    </ClCompile>
+    <ClCompile Include="MsLinker.cpp">
+      <Filter>Quelldateien\Microsoft Backend</Filter>
+    </ClCompile>
+    <ClCompile Include="MsLoaderGenerator.cpp">
+      <Filter>Quelldateien\Microsoft Backend</Filter>
+    </ClCompile>
+    <ClCompile Include="MsPcrtInitEntryGenerator.cpp">
+      <Filter>Quelldateien\Microsoft Backend</Filter>
+    </ClCompile>
+    <ClCompile Include="MsStaticImportGenerator.cpp">
+      <Filter>Quelldateien\Microsoft Backend</Filter>
+    </ClCompile>
+    <ClCompile Include="MsSymbolTableGenerator.cpp">
+      <Filter>Quelldateien\Microsoft Backend</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BinaryGatherer.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="CollectorOther.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="CollectorStubs.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="MsCompiler.h">
+      <Filter>Headerdateien\Microsoft Backend</Filter>
+    </ClInclude>
+    <ClInclude Include="MsDependencyTracker.h">
+      <Filter>Headerdateien\Microsoft Backend</Filter>
+    </ClInclude>
+    <ClInclude Include="MsExportGenerator.h">
+      <Filter>Headerdateien\Microsoft Backend</Filter>
+    </ClInclude>
+    <ClInclude Include="MsLinker.h">
+      <Filter>Headerdateien\Microsoft Backend</Filter>
+    </ClInclude>
+    <ClInclude Include="MsLoaderGenerator.h">
+      <Filter>Headerdateien\Microsoft Backend</Filter>
+    </ClInclude>
+    <ClInclude Include="MsPcrtInitEntryGenerator.h">
+      <Filter>Headerdateien\Microsoft Backend</Filter>
+    </ClInclude>
+    <ClInclude Include="MsStaticImportGenerator.h">
+      <Filter>Headerdateien\Microsoft Backend</Filter>
+    </ClInclude>
+    <ClInclude Include="MsSymbolTableGenerator.h">
+      <Filter>Headerdateien\Microsoft Backend</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Confix2.dir" />
+  </ItemGroup>
+</Project>
